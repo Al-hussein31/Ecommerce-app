@@ -1,0 +1,96 @@
+.footer {
+  grid-area: footer;
+
+  background-color: var(--color-tertiary-1);
+  grid-column: 1/ -1;
+  // width: 100%;
+
+  @media only screen and (max-width: $bp-bit) {
+    display: none;
+  }
+
+  &__head {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 1.25rem 2.25rem;
+    border-bottom: $border-bottom-3;
+  }
+
+  &__logo {
+    color: white;
+  }
+
+  &__search {
+    margin-left: 10rem;
+  }
+
+  &__btn {
+    padding: 1.25rem 2.235rem;
+    margin-left: 5.8rem;
+  }
+
+  &__body {
+    border-bottom: $border-bottom-3;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5rem;
+    list-style: none;
+    text-align: center;
+    grid-gap: 2rem;
+    font-size: 2rem;
+  }
+  &__item {
+    &:hover {
+      background-color: var(--color-secondary);
+      border-radius: 1rem;
+    }
+  }
+  &__link {
+    &:link,
+    &:visited {
+      display: flex;
+      align-items: start;
+      padding: 1.5rem 3.25rem;
+      transition: all 0.3s;
+      border: 1px solid var(--color-primary-1);
+      text-decoration: none;
+      background-image: $gradient;
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      border-radius: 1rem;
+      &:hover {
+        color: var(--color-primary-1);
+      }
+    }
+  }
+
+  &__foot {
+    padding: 3rem;
+    display: grid;
+
+    text-align: center;
+
+    &-link {
+      &:link,
+      &:visited {
+        color: orangered;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-decoration: none;
+        font-style: italic;
+        &:hover {
+          color: orange;
+          font-style: normal;
+          transition: all 0.3s;
+        }
+      }
+    }
+  }
+  &__copyright {
+    font-size: 2rem;
+    color: var(--color-primary-1);
+    // font-style: italic;
+  }
+}

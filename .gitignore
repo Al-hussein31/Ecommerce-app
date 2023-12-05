@@ -1,0 +1,38 @@
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+## Please do not remove lines 5 and 6 - thanks! 🙂 ##
+#####################################################
+*.sketch
+*.fig
+.vscode/
+.gitignore
+.dist/
+# Avoid accidental XD upload if you convert the design file
+###############################################
+## Please do not remove line 12 - thanks! 🙂 ##
+###############################################
+*.xd
+node_modules/
+.parcel-cache
+
+# Avoid your project being littered with annoying .DS_Store files!
+.DS_Store
+.prettierignore
+
+.$E-commerce.png.bkp
+
+# Created by https://www.toptal.com/developers/gitignore/api/sass,jspm
+# Edit at https://www.toptal.com/developers/gitignore?templates=sass,jspm
+
+### jspm ###
+jspm_packages
+
+### Sass ###
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+
+# End of https://www.toptal.com/developers/gitignore/api/sass,jspm
+

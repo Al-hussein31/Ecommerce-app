@@ -1,0 +1,109 @@
+.heading--1 {
+  text-transform: uppercase;
+  display: inline-block;
+  background-image: $gradient;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+  transition: all 0.2s;
+  font-weight: 700;
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+.heading-bg {
+  font-size: 4.5rem;
+  width: 55rem;
+  color: var(--color-tertiary-1);
+  &:hover {
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+}
+
+.heading-md {
+  color: var(--color-primary-1);
+  font-size: 3rem;
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.cart-number {
+  background-color: var(--color-secondary);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  position: absolute;
+  color: var(--color-primary-1);
+  // right: 16.5%;
+  margin-top: -3.5rem;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  align-items: center;
+
+  @media only screen and (max-width: $bp-mid) {
+    margin-top: -6.5rem;
+    margin-left: 0rem;
+    height: 3.5rem;
+    width: 3rem;
+    font-size: 3rem;
+  }
+
+  @media only screen and (max-width: $bp-small) {
+    margin-top: -6.5rem;
+  }
+}
+.passage {
+  font-size: 1.7rem;
+  width: 55rem;
+  color: var(--color-tertiary-2);
+
+  @media only screen and (max-width: $bp-small) {
+    font-size: 2.7rem;
+  }
+}
+.number {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+.cookie-message {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: white;
+  color: #bbb;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.sticky {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.95);
+  height: 12rem;
+  width: 225rem;
+  left: 0%;
+  padding: 0 2rem;
+  border-bottom: $border-bottom;
+}
+.message {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+.cart-baskets {
+  margin-right: 1rem;
+}
+.icon-right-one {
+  margin-top: 1.5rem;
+}
+.icon-left-one {
+  margin-top: 1.5rem;
+}

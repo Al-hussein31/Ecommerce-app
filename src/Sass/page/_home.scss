@@ -1,0 +1,27 @@
+.container {
+  display: grid;
+  grid-template-rows: 12rem minmax(40rem, auto);
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas:
+    'head head'
+    'main main'
+    'footer footer';
+  padding: 7rem 10rem;
+  padding-top: 0rem;
+  @media only screen and (max-width: $bp-mid) {
+    padding: 0;
+  }
+
+  & * a {
+    text-decoration: none;
+    &:link,
+    &:visited {
+      align-items: center;
+      text-decoration: none;
+    }
+  }
+
+  & * ul {
+    list-style-type: none;
+  }
+}

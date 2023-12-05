@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/image-logo.8a8861ae.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/index.ea2c0b31.css">
+    <!-- <link rel="stylesheet" href="dist/index.ea2c0b31.css" /> -->
+
+    <script src="/index.e37f48ea.js" defer=""></script>
+    <title>E-commerce App</title>
+  </head>
+
+  <body>
+    <header class="container">
+      <nav class="navigation">
+        <input type="checkbox" class="navigation__checkboxs" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__buttons">
+          <span class="navigation__iconss">&nbsp;</span>
+        </label>
+
+        <div class="navigation__logo">
+          <a href="/index.html">
+            <img src="/logo.cd13699a.svg" alt="Logo" class="navigation__logo--icon">
+          </a>
+        </div>
+
+        <div class="navigation__links">
+          <li class="navigation__item">
+            <a href="#" class="navigation__link navigation__link--active">Collection</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Men</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Women</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">About</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__link">Contact</a>
+          </li>
+        </div>
+
+        <div class="navigation__search">
+          <!-- <form class="search">
+            <input
+              type="text"
+              class="search__field"
+              placeholder="Search over 1,000,000 sneaker..."
+            />
+            <button class="btn2 search__btn">
+              <svg class="search__icon">
+                <use href="src/images/icons.svg#icon-search"></use>
+              </svg>
+              <span>Search</span>
+            </button>
+          </form> -->
+        </div>
+
+        <ul class="navigation__icons">
+          <li class="navigation__element">
+            <button id="cart" class="navigation__btn navigation__btn--bookmarks">
+              <img src="/icon-cart.1394e5a2.svg" alt="Icon">
+              <div class="cart-number hidden">
+                <span>1</span>
+              </div>
+            </button>
+            <div class="bookmarks hidden">
+              <div class="wrapper--bookmark">
+                <div class="bookmarks__head">Cart</div>
+                <ul class="bookmarks__list">
+                  <div class="message">
+                    <p>Your cart is empty :)</p>
+                  </div>
+                  <li class="preview hidden">
+                    <a class="preview__link" href="#23456">
+                      <figure class="preview__fig">
+                        <img src="/image-product-1-thumbnail.cad5b7f9.jpg" alt="Test" class="preview__fig-img">
+                      </figure>
+                      <div class="preview__data">
+                        <h4 class="preview__name">
+                          Fall Limited Edition Sneakers
+                        </h4>
+                        <p class="preview__price">
+                          $125.00 x
+                          <span class="number-1"> 1 </span>
+                          <span class="preview__price--multi promo-number">$125.00</span>
+                        </p>
+                      </div>
+                    </a>
+
+                    <button class="btn--wide-2 preview__btn">
+                      <span class="preview__btn-btn"> Checkout </span>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+              <div class="preview__icon hidden">
+                <img src="/icon-delete.c9dd7024.svg" alt="Icon">
+              </div>
+            </div>
+          </li>
+          <a class="navigation__element navigation__btn--bookmarks">
+            <img src="/image-avatar.3bdd5e1c.png" alt="Profile" class="navigation__icon navigation__icon--Profile">
+          </a>
+
+          <!-- <ul class="dropdowns">
+            <li class="dropdowns__items">
+              <a href="#" class="dropdowns__list">
+                <svg class="dropdowns__icon">
+                  <use href="src/images/icons.svg#icon-user"></use>
+                </svg>
+                My Profile</a
+              >
+
+              <a href="#" class="dropdowns__list">
+                <svg class="dropdowns__icon">
+                  <use href="src/images/icons.svg#icon-order"></use>
+                </svg>
+                Orders</a
+              >
+
+              <a href="#" class="dropdowns__list">
+                <svg class="dropdowns__icon">
+                  <use href="src/images/icons.svg#lnr-envelope"></use>
+                </svg>
+                Inbox</a
+              >
+
+              <a href="#" class="dropdowns__list">
+                <svg class="dropdowns__icon">
+                  <use href="src/images/icons.svg#lcon-heart-pulse"></use>
+                </svg>
+                Saved Items</a
+              >
+
+              <div class="dropdowns__list account-logout">
+                <svg class="dropdowns__icon">
+                  <use href="src/images/icons.svg#icon-arrow-left"></use>
+                </svg>
+                LOGOUT
+              </div>
+            </li>
+          </ul> -->
+        </ul>
+      </nav>
+      <main class="layout">
+        <div class="layout__images">
+          <div class="layout__icons layout__icons--left">
+            <img src="/icon-previous.073fbd70.svg" alt="Icons" class="icon-left-one">
+          </div>
+
+          <div class="layout__icons layout__icons--right">
+            <img src="/icon-next.5240f3bb.svg" alt="Icons" class="icon-right-one">
+          </div>
+
+          <figure class="layout__images-img">
+            <img src="/image-product-1.5f963ded.jpg" alt="IMAGES" class="layout__images-img__fig">
+          </figure>
+          <figure class="layout__images-sub">
+            <img class="layout__images-sub__fig dots__dot--active" src="/image-product-1.5f963ded.jpg" alt="TEXT">
+            <img class="layout__images-sub__fig" src="/image-product-2.6c550b84.jpg" alt="TEXT">
+            <img class="layout__images-sub__fig" src="/image-product-3.ee366c07.jpg" alt="TEXT">
+            <img class="layout__images-sub__fig" src="/image-product-4.20ac56af.jpg" alt="TEXT">
+          </figure>
+        </div>
+
+        <div class="layout__text">
+          <h3 class="heading--1">Sneaker company</h3>
+          <h1 class="heading-bg">Fall Limited Edition Sneakers</h1>
+          <p class="passage">
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+
+          <figure class="layout__price">
+            <p><span class="layout__price-promo promo-number">$125.00</span></p>
+            <div class="layout__price-offer">50%</div>
+            <div class="layout__price-real">$250.00 0</div>
+          </figure>
+
+          <div class="layout__foot">
+            <div class="layout__cartnum">
+              <img class="layout__cartnum-minus" src="/icon-minus.da9290f9.svg" alt="Minus">
+              <span class="number">1</span>
+              <img class="layout__cartnum-plus" src="/icon-plus.05cc6b7f.svg" alt="Plus">
+            </div>
+            <div class="layout__btn">
+              <button class="btn--wide preview__btn">
+                <img class="cart-baskets" src="/icon-cart-1.022abc62.svg" alt="Icon">
+                Checkout
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </header>
+
+    <footer class="footer">
+      <div class="footer__head">
+        <a href="/index.html">
+          <img src="/logo-white.c5c2e15a.svg" alt="Logo" class="footer__logo">
+        </a>
+        <h1 class="heading-md">join over 1,000,000 sneaker users...</h1>
+        <form class="search footer__search">
+          <input type="email" class="search__field" placeholder="Enter your email address... ">
+          <button class="btn search__btn footer__btn">
+            <svg class="search__icon">
+              <use href="/icons.adfc4680.svg#icon-search"></use>
+            </svg>
+            <span>join</span>
+          </button>
+        </form>
+      </div>
+
+      <ul class="footer__body">
+        <li class="footer__item">
+          <a class="footer__link" href="#">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="#">Cookie Setting</a>
+        </li>
+
+        <li class="footer__item">
+          <a class="footer__link" href="#">Contact Us</a>
+        </li>
+      </ul>
+
+      <div class="footer__foot">
+        <p class="footer__copyright">
+          &copy; 2023 Copyright by
+          <a class="footer__foot-link twitter-link" target="_blank" href="https://www.instagram.com/_alhvssein_/?hl=en">Hussein Yahaya</a>.
+        </p>
+      </div>
+    </footer>
+
+    <section class="model hidden">
+      <div class="model__body">
+        <div class="model__icon">
+          <img src="/icon-close.cac3d951.svg">
+        </div>
+
+        <div class="model__iconSliders">
+          <div class="model__sliders model__sliders-left">
+            <img src="/icon-previous.073fbd70.svg" alt="Icons" class="icon-left">
+          </div>
+
+          <div class="model__sliders model__sliders-right">
+            <img src="/icon-next.5240f3bb.svg" alt="Icons" class="icon-right">
+          </div>
+        </div>
+        <div class="wrapper--2">
+          <div class="model__images">
+            <figure class="model__images-img image--1">
+              <img src="/image-product-1.5f963ded.jpg" alt="IMAGES" class="model__images-img__fig">
+            </figure>
+            <figure class="model__images-img image--2">
+              <img src="/image-product-2.6c550b84.jpg" alt="IMAGES" class="model__images-img__fig">
+            </figure>
+            <figure class="model__images-img image--3">
+              <img src="/image-product-3.ee366c07.jpg" alt="IMAGES" class="model__images-img__fig">
+            </figure>
+            <figure class="model__images-img image--4">
+              <img src="/image-product-4.20ac56af.jpg" alt="IMAGES" class="model__images-img__fig">
+            </figure>
+          </div>
+          <div class="dots">
+            <button class="dots__dot">
+              <img data-slide="0" class="dots__dot-image" src="/image-product-1-thumbnail.cad5b7f9.jpg" alt="TEXT">
+            </button>
+            <button class="dots__dot">
+              <img data-slide="1" class="dots__dot-image" src="/image-product-2-thumbnail.c1078cca.jpg" alt="TEXT">
+            </button>
+            <button class="dots__dot">
+              <img data-slide="2" class="dots__dot-image" src="/image-product-3-thumbnail.13b1e1c1.jpg" alt="TEXT">
+            </button>
+            <button class="dots__dot">
+              <img data-slide="3" class="dots__dot-image" src="/image-product-4-thumbnail.5287685c.jpg" alt="TEXT">
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="overlay hidden"></div>
+    </section>
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>

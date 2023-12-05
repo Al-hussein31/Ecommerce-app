@@ -1,0 +1,43 @@
+:root {
+  --color-primary-1: hsl(0, 0%, 100%);
+  --color-primary-2: hsl(0, 0%, 100%);
+
+  --color-secondary: hsl(26, 100%, 55%);
+
+  --color-tertiary-1: hsl(220, 13%, 13%);
+  --color-tertiary-2: hsl(219, 9%, 45%);
+}
+
+$gradient: linear-gradient(to right bottom, hsl(26, 100%, 55%), orange);
+
+$background-dark: hsl(0, 0%, 0%);
+$background-light: hsl(220, 14%, 75%);
+$border-bottom: 1px solid rgba($background-dark, 0.08);
+$background-model: rgba($background-dark, 1);
+$background-light: rgba($background-light, 0.1);
+
+$border-bottom-2: 4px solid var(--color-secondary);
+$border-bottom-3: 3px solid var(--color-primary-1);
+
+$bp-largest-1: 1440px;
+$bp-largest: 75em; //1200px
+$bp-large: 68.75em; //1100px
+$bp-mid: 56.25em; //900px
+$bp-small: 37.5em; //600px
+$bp-bit: 31.25em; //500px
+$bp-tiny: 25.25em; //500px
+
+/*
+- Very dark blue: hsl(220, 13%, 13%)
+- Dark grayish blue: hsl(219, 9%, 45%)
+- Grayish blue: hsl(220, 14%, 75%)
+- Light grayish blue: hsl(223, 64%, 98%)
+- White: hsl(0, 0%, 100%)
+- Black (with 75% opacity for lightbox background): hsl(0, 0%, 0%)
+
+
+
+
+- Orange: hsl(26, 100%, 55%)
+- Pale orange: hsl(25, 100%, 94%)
+*/

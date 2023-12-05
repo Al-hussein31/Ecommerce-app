@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+
+  @media only screen and (max-width: $bp-largest-1) {
+    font-size: 60%;
+  }
+  @media only screen and (max-width: $bp-largest) {
+    font-size: 50%;
+  }
+  @media only screen and (max-width: $bp-large) {
+    font-size: 45%;
+  }
+
+  @media only screen and (max-width: $bp-mid) {
+    font-size: 32%;
+  }
+}
+body {
+  box-sizing: border-box;
+  font-family: "Kumbh Sans", sans-serif;
+  overflow-x: hidden;
+
+  background-color: var(--color-primary-1);
+}
